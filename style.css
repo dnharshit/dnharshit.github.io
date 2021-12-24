@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap'); /*for oops*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;608&family=Roboto+Mono:wght@100;300&display=swap'); /*for dnharshit*/
+
+
+body {
+    background: linear-gradient(45deg, #000000, #030018, #000000,  #4f4f4f, #000000, #030018);
+    background-size: 1000%;
+    color: white;
+    animation: gradient-animation 10s infinite alternate;
+    /* animation-delay: 5s; */
+}
+
+@keyframes gradient-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo a:hover {
+    transition-duration: 0.5s;
+    color: #d4af37;
+}
+
+.nav li a:hover {
+    transition-duration: 0.5s;
+    color: darkslategrey;
+}
+
+.logo {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    color: white;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+    margin: 1vw;
+    padding: 1vw;
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fun {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4vw;
+    margin: 10vw 1vw 1vw 1vw;
+    padding: 1vw;
+
+}
+
+.funnii {
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
