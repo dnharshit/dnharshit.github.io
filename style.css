@@ -47,6 +47,11 @@ a {
     overflow: hidden;
 }
 
+ul.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav li {
     font-family: 'Comfortaa', cursive;
     font-size: 0.9em;
@@ -66,15 +71,41 @@ header {
 @media screen and (max-width: 765px) {
     .header {
       flex-direction: column;
+      justify-content: space-between;
     }
 
     div.fun {
-        font-size: 35px;
+        font-size: 7vw;
     }
 
     div.funi {
-        font-size: 20px;
+        font-size: 5vw;
     }
+
+  }
+
+  @media screen and (max-width: 480px) {
+    .header {
+      flex-direction: column;
+    }
+
+    div.fun {
+        font-size: 7vw;
+    }
+
+    div.funi {
+        font-size: 5.2vw;
+        margin-top: 15px;
+    }
+
+    .logo {
+        font-size: 4.5vw;
+    }
+
+    .nav {
+        font-size: 4vw;
+    }
+
   }
 
 .fun {
