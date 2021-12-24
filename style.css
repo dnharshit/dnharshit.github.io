@@ -27,12 +27,13 @@ a {
 
 .nav li a:hover {
     transition-duration: 0.5s;
-    color: darkslategrey;
+    color: rgb(9, 196, 196);
 }
 
 .logo {
     font-family: 'Comfortaa', cursive;
-    font-size: 1.5vw;
+    font-size: 1.1em;
+    letter-spacing: 3px;
     color: white;
     margin: 1vw;
     padding: 1vw;
@@ -48,7 +49,9 @@ a {
 
 .nav li {
     font-family: 'Comfortaa', cursive;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
     margin: 1vw;
     padding: 1vw;
     display: inline-block;
@@ -58,18 +61,37 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
+
+@media screen and (max-width: 765px) {
+    .header {
+      flex-direction: column;
+    }
+
+    div.fun {
+        font-size: 38px;
+    }
+
+    div.funi {
+        font-size: 25px;
+    }
+  }
 
 .fun {
     font-family: 'Roboto Mono', monospace;
-    font-size: 4vw;
+    font-size: 70px;
     margin: 10vw 1vw 1vw 1vw;
     padding: 1vw;
 
 }
 
-.funnii {
-    margin-top: 1vw;
-    font-size: 2vw;
+span.witty1, span.witty2 {
+    display: inline-block;
+}
+
+.funi {
+    margin-top: 30px;
+    font-size: 35px;
 }
 
