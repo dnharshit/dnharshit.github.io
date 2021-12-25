@@ -3,10 +3,10 @@
 
 
 body {
-    background: linear-gradient(45deg, #000000, #030018, #000000,  #4f4f4f, #000000, #030018);
+    background: linear-gradient(45deg, #000000, #050023, #7B3E42, #000000,  #252525, #000000, #7B3E42, #070031);
     background-size: 1000%;
     color: white;
-    animation: gradient-animation 10s infinite alternate;
+    animation: gradient-animation 30s infinite alternate;
     /* animation-delay: 5s; */
 }
 
